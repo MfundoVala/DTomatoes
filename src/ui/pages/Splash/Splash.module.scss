@@ -1,0 +1,14 @@
+@use "../../variables" as *;
+
+.home {
+  color: $textColor;
+  h1 {
+    color: $h1Color;
+  }
+}
+
+@media (min-width: $lg-min) {
+  .home {
+    max-width: 60vw;
+  }
+}

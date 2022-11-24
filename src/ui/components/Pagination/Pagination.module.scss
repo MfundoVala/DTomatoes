@@ -1,0 +1,66 @@
+@use "../../variables" as *;
+
+.Container {
+  align-items: center;
+  color: $textColor;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1rem + 1.5vmin);
+  justify-content: center;
+  margin: auto;
+  width: 100vw;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  h1 {
+    color: $h1Color;
+    align-self: start;
+    margin-left: 6vw;
+    padding: 0 !important;
+  }
+}
+.h1Text {
+  align-self: center !important;
+  margin-left: 0 !important;
+}
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+}
+
+.paginationButtonContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+}
+
+.paginationButton {
+  background-color: $primaryColor;
+  padding: 16px;
+  line-height: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.activePaginationButton {
+  background-color: $primaryColor;
+  padding: 16px;
+  line-height: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 100%;
+  cursor: pointer;
+}

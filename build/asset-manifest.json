@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb4b9cf7.css",
+    "main.js": "/static/js/main.19dbbf98.js",
+    "static/media/got.png": "/static/media/got.17da94990cc2eeb28808.png",
+    "static/media/avengers.png": "/static/media/avengers.94f600938789af084274.png",
+    "static/media/appStore.svg": "/static/media/appStore.e732f42683c1b76be1a10e3d00dba4fe.svg",
+    "static/media/googlePlay.svg": "/static/media/googlePlay.de204a80d35255ecb7e5ca1c5b6d792a.svg",
+    "static/media/desktopLogo.png": "/static/media/desktopLogo.1d4059e6ad3b60f8d7fa.png",
+    "static/media/tv.svg": "/static/media/tv.aefc09ddd057cf71557722fc69da6ba0.svg",
+    "static/media/clapperboard.svg": "/static/media/clapperboard.f8cdfde4815d40064800ac84f2ecf57c.svg",
+    "static/media/search.svg": "/static/media/search.49d82a22efd4447b5c197a21f60ccc38.svg",
+    "static/media/left-chevron.svg": "/static/media/left-chevron.743a772714fe1d73259f643d1bad3c7a.svg",
+    "static/media/calendar.svg": "/static/media/calendar.aeeabd9861c954cd1ba9dc5b091eb05e.svg",
+    "static/media/right-chevron.svg": "/static/media/right-chevron.be344bed10f21c4489bdf3e5a826a177.svg",
+    "index.html": "/index.html",
+    "main.cb4b9cf7.css.map": "/static/css/main.cb4b9cf7.css.map",
+    "main.19dbbf98.js.map": "/static/js/main.19dbbf98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb4b9cf7.css",
+    "static/js/main.19dbbf98.js"
+  ]
+}

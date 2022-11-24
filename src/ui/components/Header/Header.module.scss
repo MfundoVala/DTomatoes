@@ -1,0 +1,37 @@
+@use "../../variables" as *;
+
+.rviewerLogo {
+  margin: 0.3rem 0;
+  margin-left: 8vw;
+  width: 12rem;
+  @media screen and (max-width: $sm-min) {
+    margin-left: 5vw;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+}
+.headerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10.5vw;
+  height: 3.1rem;
+  @media screen and (max-width: $sm-min) {
+    margin: 0 6vw;
+    height: 3.9rem;
+  }
+}
+
+.header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(1rem);
+  justify-content: space-between;
+  width: 100vw;
+  text-align: center;
+  background-color: $headerColor;
+  position: fixed;
+  z-index: 999999;
+}

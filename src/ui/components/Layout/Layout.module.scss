@@ -1,0 +1,34 @@
+@use "../../variables" as *;
+
+.App {
+  background-color: $backgroundColor;
+  min-height: 70vh;
+  max-width: 100vw;
+  overflow: hidden;
+  padding-top: 3.5rem;
+  @media screen and (min-width: $md-min) {
+    padding-top: 3rem;
+  }
+
+  h1 {
+    color: $h1Color;
+    font-size: $h1FontSize;
+    font-weight: $h1FontWeight;
+  }
+  h2 {
+    color: $h2Color;
+    font-size: $h2FontSize;
+    font-weight: $h2FontWeight;
+    line-height: calc($h2FontSize * 1.5);
+  }
+  h3 {
+    color: $h3Color;
+    font-size: $h3FontSize;
+    font-weight: $h3FontWeight;
+  }
+  h4 {
+    color: $h4Color;
+    font-size: $h4FontSize;
+    font-weight: $h4FontWeight;
+  }
+}

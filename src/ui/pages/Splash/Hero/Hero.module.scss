@@ -1,0 +1,33 @@
+@use "../../../variables" as *;
+$assetPath: "../";
+
+.Hero {
+  color: $textColor;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100vw;
+  height: 85vh;
+  h1 {
+    color: $h1Color;
+  }
+  @media screen and (max-width: $sm-min) {
+    height: 50vh;
+  }
+}
+
+.heroImage {
+  width: 50vw;
+  height: 100vh;
+
+  object-fit: cover;
+}
+.heroSection {
+  width: 50vw;
+}
+
+@media (min-width: $lg-min) {
+  .Hero {
+    max-width: 60vw;
+  }
+}

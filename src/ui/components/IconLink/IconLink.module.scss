@@ -1,0 +1,64 @@
+@use "../../variables" as *;
+
+.picTextLink {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  @media screen and (max-width: $sm-min) {
+    gap: 0px !important;
+    flex-direction: column;
+    padding-top: 0.4rem;
+
+    .linkText {
+      margin-left: 8px;
+    }
+  }
+}
+
+.picTextLinkActive {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  @media screen and (max-width: $sm-min) {
+    gap: 0px !important;
+    flex-direction: column;
+    padding-top: 0.4rem;
+    height: 90%;
+
+    .linkText {
+      margin-left: 8px;
+    }
+  }
+
+  transition: ease 0.1s;
+  background-color: $primaryColor !important;
+  scale: 1.1;
+}
+
+.IconLinkConatiner {
+  height: 100%;
+}
+
+.linkText {
+  color: $textColor;
+  font-size: $h2FontSize; //1.2rem;
+  font-weight: 700;
+  line-height: 0;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+  h1 {
+    font-size: 2rem;
+  }
+}
